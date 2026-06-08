@@ -317,6 +317,7 @@ padding-left: 60px;
 }
 .feature{
   background-color: #F4F6FC;
+  padding-bottom: 128px;
 }
 .feature-text p{
   font-size: 16px;
@@ -360,14 +361,98 @@ padding-left: 60px;
   width: 324px;
 }
 
-.clients {
-  background:#F4F6FC;
+#clients {
+  background:rgba(244, 246, 252,0.5);
+  padding: 130px;
+  
 }
-.clients .col-lg-5 h4{
+.clients-left h4{
+  font-size: 38px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+  line-height: 56px;
+  padding-left: 0;
+  padding-right: 110px;
+  padding-bottom: 16px;
+  width: 327;
+  
+}
+.clients-left p{
+   font-size: 16px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(40, 41, 56,0.7);
+  width: 268px;
+  line-height: 28px;
+}
+#clients .col-lg-8 h3{
+  font-size: 32px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+  line-height: 48px;
+  width: 843px;
+  padding-bottom: 48px;
+  left: 0;
+}
+#clients .jenny-wilson{
+  display: flex;
+  gap: 14px;
+}
+#clients .col-lg-8 h5{
+   font-size: 18px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: #282938;
+}
+.faq{
+  display: flex;
+  padding-top: 128px;
+  padding-bottom: 128px;
+  
+}
+.faq .left-part h2{
+  padding-bottom: 16px;
   font-size: 38px;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   color: #282938;
-  line-height: 56px;
-  padding-top: 130px !important;
+  line-height: 56px;   
+  }
+
+.faq .left-part a{
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  color: rgba(36, 5, 242,0.87);
+  
+ }
+.faq .left-part i{
+ padding-left: 10px;
+ transition: .4s;
+ }
+.faq .contract-us:hover i{
+  padding-left: 30px;
+}
+.faq .accordion-item{
+  border: 0px;
+}
+.faq .accordion-item .accordion-button{
+  color: #282938;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.faq .accordion-item span{
+  margin-right: 59px;
+  color: #2405F2;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+
+}
+.faq .accordion-item .accordion-body{
+  padding-left: 82px;
+  
 }
